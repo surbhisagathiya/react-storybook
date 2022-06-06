@@ -19,7 +19,7 @@ function App() {
           five centuries, but also the leap into electronic typesetting,
           remaining essentially unchanged.
         </Para>
-        <Button variant="primary">Hello, storybook</Button>
+        <Button>Hello, storybook</Button>
       </Card>
     </div>
   );

@@ -1,12 +1,13 @@
+import { Button } from "@chakra-ui/react";
 import React from "react";
-import "../Button/Button.css"
+// import "../Button/Button.css";
 
-const Button = ({ children, ...rest }) => {
+const ButtonCom = ({ children, ...rest }) => {
   return (
-    <button className="button" {...rest}>
+    <Button variant="solid" colorScheme="red" {...rest}>
       {children}
-    </button>
+    </Button>
   );
 };
 
-export default Button;
+export default ButtonCom;
