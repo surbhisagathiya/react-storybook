@@ -5,4 +5,7 @@
     background-color: lightgrey;
     text-align: center;
     border-radius: 0.5em;
+    height: auto;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }

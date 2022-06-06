@@ -5,6 +5,14 @@ import Button from "../components/Button";
 export default {
   title: "Button",
   components: Button,
+  //   argTypes: {
+  //     variant: {
+  //       control: {
+  //         type: "radio",
+  //         options: ["primary", "secondary"],
+  //       },
+  //     },
+  //   },
 };
 
 export const Text = () => (
