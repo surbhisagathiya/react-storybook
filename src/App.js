@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Card>
-        <img src={img} alt="images" />
+        <img src={img} alt="images" style={{ margin: "0 auto " }} />
         <Header>Storybook Header</Header>
         <Para>
           Lorem Ipsum is simply dummy text of the printing and typesetting
